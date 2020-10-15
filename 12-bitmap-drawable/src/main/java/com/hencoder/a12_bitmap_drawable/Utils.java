@@ -1,8 +1,6 @@
 package com.hencoder.a12_bitmap_drawable;
 
 import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.util.TypedValue;
 
 public class Utils {

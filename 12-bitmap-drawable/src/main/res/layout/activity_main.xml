@@ -24,10 +24,37 @@
 
         <com.hencoder.a12_bitmap_drawable.view.MaterialEditText
             android:id="@+id/met"
-            app:useFloatingLabel="false"
+            app:useFloatingLabel="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DFF6E40">
+
+        <com.hencoder.a12_bitmap_drawable.guo.MaterialEditText2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9240C4FF">
+
+        <com.hencoder.a12_bitmap_drawable.guo.CandleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     </FrameLayout>
 
 </LinearLayout>
