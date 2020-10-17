@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.hencoder.trace'
 apply plugin: 'com.jakewharton.hugo'
 
@@ -28,4 +29,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     implementation 'com.github.markzhai:blockcanary-android:1.5.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
