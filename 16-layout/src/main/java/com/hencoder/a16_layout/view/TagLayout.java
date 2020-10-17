@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TagLayout extends ViewGroup {
+public class  TagLayout extends ViewGroup {
   List<Rect> childrenBounds = new ArrayList<>();
 
   public TagLayout(Context context, AttributeSet attrs) {
